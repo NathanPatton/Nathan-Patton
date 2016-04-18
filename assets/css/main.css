@@ -374,7 +374,25 @@ input[type="button"] {
   width: 100%;
   left: 0; }
 
-body {
-  margin: 10px;
-  background-color: white;
-  overflow-x: hidden; }
+header {
+  height: 100vh;
+  float: left;
+  width: 100%;
+  background-image: url(../img/hero.jpg);
+  background-display: flex;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  header .hero {
+    opacity: 0.7;
+    vertical-align: middle;
+    width: 25%;
+    margin-top: 20%; }
+
+.about {
+  float: left;
+  height: 500px;
+  width: 1024px; }
