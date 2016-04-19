@@ -201,7 +201,7 @@ body {
   background-color: white;
   font-size: 14px;
   line-height: 1.6;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -239,9 +239,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -2px; }
 
 .huge, h1 {
-  font-size: 68px;
+  font-size: 40pt;
   line-height: 1.05;
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Fjalla One", sans-serif; }
 
 .large, h2 {
   font-size: 42px;
@@ -387,7 +390,6 @@ header {
   align-items: center;
   text-align: center; }
   header .hero {
-    opacity: 0.7;
     vertical-align: middle;
     width: 25%;
     margin-top: 20%; }
@@ -395,4 +397,55 @@ header {
 .about {
   float: left;
   height: 500px;
-  width: 1024px; }
+  width: 100%; }
+  .about .about-blurb {
+    width: 50%;
+    height: 500px;
+    float: left; }
+    .about .about-blurb .about-wrap {
+      position: relative;
+      top: 40%;
+      transform: translateY(-50%); }
+      .about .about-blurb .about-wrap .about-head {
+        padding-left: 1em; }
+      .about .about-blurb .about-wrap .about-body {
+        width: 75%;
+        padding-left: 4em; }
+  .about .about-image {
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-image: url(../img/about.jpg);
+    background-opacity: 0.7;
+    background-color: blue;
+    background-display: flex;
+    background-size: cover;
+    background-position: center; }
+
+.services {
+  float: left;
+  height: 500px;
+  width: 100%; }
+  .services .services-blurb {
+    width: 50%;
+    height: 500px;
+    float: right; }
+    .services .services-blurb .services-wrap {
+      position: relative;
+      top: 40%;
+      transform: translateY(-50%); }
+      .services .services-blurb .services-wrap .services-head {
+        padding-left: 1em; }
+      .services .services-blurb .services-wrap .services-body {
+        width: 75%;
+        padding-left: 4em; }
+  .services .services-image {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-image: url(../img/services.jpg);
+    background-opacity: 0.7;
+    background-color: blue;
+    background-display: flex;
+    background-size: cover;
+    background-position: center; }

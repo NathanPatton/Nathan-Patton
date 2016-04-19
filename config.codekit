@@ -210,6 +210,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/4-pages\/_services.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/_services.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_services.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -235,6 +251,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/img\/about.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175968,
+		"inputAbbreviatedPath": "\/assets\/img\/about.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -242,6 +269,17 @@
 		"initialSize": 343971,
 		"inputAbbreviatedPath": "\/assets\/img\/hero.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/services.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 241844,
+		"inputAbbreviatedPath": "\/assets\/img\/services.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/services.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
