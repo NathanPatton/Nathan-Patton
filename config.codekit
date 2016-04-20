@@ -210,6 +210,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/4-pages\/_portfolio.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/_portfolio.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_portfolio.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/4-pages\/_services.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -273,6 +289,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/localise.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24977,
+		"inputAbbreviatedPath": "\/assets\/img\/localise.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/localise.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/services.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -302,6 +329,39 @@
 		"initialSize": 179495,
 		"inputAbbreviatedPath": "\/assets\/img\/tools.png",
 		"outputAbbreviatedPath": "\/assets\/img\/tools.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/vision.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28474,
+		"inputAbbreviatedPath": "\/assets\/img\/vision.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/vision.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/wee-nippers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38498,
+		"inputAbbreviatedPath": "\/assets\/img\/wee-nippers.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/wee-nippers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/wee-nippers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19877,
+		"inputAbbreviatedPath": "\/assets\/img\/wee-nippers.png",
+		"outputAbbreviatedPath": "\/assets\/img\/wee-nippers.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
