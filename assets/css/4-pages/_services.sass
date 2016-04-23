@@ -6,7 +6,7 @@
     .services-blurb
         width: 50%
         height: 500px
-        float: right
+        float: left
         
         .services-wrap
             position: relative
@@ -28,11 +28,24 @@
         float: left
         background:
             image: url(../img/services.jpg)
-            opacity: 0.7
-            color: blue
             display: flex
             size: cover
             position: center
+            
+            
+@media (max-width: 800px)
+    .services
+        float: none
+        
+        .services-blurb
+            width: 100%
+            display: inline-block
+            float: right
+            height: 500px
+        
+        .services-image
+            width: 100%
+            float: left
             
             
 

@@ -51,7 +51,6 @@
         
 .alpha-graphics
     width: 67%
-    height: 600px
     background-color: #7ACB32 
     float: left
         
@@ -60,14 +59,19 @@
         
 .mainline
     width: 67%
-    height: 250px
     background-color: #2E3344 
     float: right
     margin: 0 auto
         
     .mainline-thumb
-        height: 250px
-        display: block
-        margin: 0 auto
-        padding: 0
-        background-color: #2E3344
+        width: 100%
+        
+        
+@media (max-width: 800px)
+    .portfolio
+        float: left
+        width: auto
+        
+        .wee-nippers, .localise, .vision, .miboard, .alpha-graphics, .mainline
+            float: left
+            width: 100%

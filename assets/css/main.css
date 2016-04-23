@@ -394,6 +394,9 @@ header {
     width: 25%;
     margin-top: 20%; }
 
+@media (max-width: 800px) {
+  header .hero {
+    width: 75%; } }
 .about {
   float: left;
   height: 500px;
@@ -414,7 +417,7 @@ header {
   .about .about-image {
     width: 50%;
     height: 500px;
-    float: right;
+    float: left;
     background-image: url(../img/about.jpg);
     background-opacity: 0.7;
     background-color: blue;
@@ -422,6 +425,18 @@ header {
     background-size: cover;
     background-position: center; }
 
+@media (max-width: 800px) {
+  .about {
+    float: none; }
+    .about .about-blurb {
+      display: block;
+      height: 500px;
+      width: 100%;
+      float: left; }
+    .about .about-image {
+      display: block;
+      width: 100%;
+      float: left; } }
 .services {
   float: left;
   height: 500px;
@@ -429,7 +444,7 @@ header {
   .services .services-blurb {
     width: 50%;
     height: 500px;
-    float: right; }
+    float: left; }
     .services .services-blurb .services-wrap {
       position: relative;
       top: 40%;
@@ -444,12 +459,21 @@ header {
     height: 500px;
     float: left;
     background-image: url(../img/services.jpg);
-    background-opacity: 0.7;
-    background-color: blue;
     background-display: flex;
     background-size: cover;
     background-position: center; }
 
+@media (max-width: 800px) {
+  .services {
+    float: none; }
+    .services .services-blurb {
+      width: 100%;
+      display: inline-block;
+      float: right;
+      height: 500px; }
+    .services .services-image {
+      width: 100%;
+      float: left; } }
 .portfolio {
   margin: 0 auto;
   padding: 0 auto;
@@ -498,7 +522,6 @@ header {
 
 .alpha-graphics {
   width: 67%;
-  height: 600px;
   background-color: #7ACB32;
   float: left; }
   .alpha-graphics .alpha-graphics-thumb {
@@ -506,17 +529,19 @@ header {
 
 .mainline {
   width: 67%;
-  height: 250px;
   background-color: #2E3344;
   float: right;
   margin: 0 auto; }
   .mainline .mainline-thumb {
-    height: 250px;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    background-color: #2E3344; }
+    width: 100%; }
 
+@media (max-width: 800px) {
+  .portfolio {
+    float: left;
+    width: auto; }
+    .portfolio .wee-nippers, .portfolio .localise, .portfolio .vision, .portfolio .miboard, .portfolio .alpha-graphics, .portfolio .mainline {
+      float: left;
+      width: 100%; } }
 .contact {
   float: left;
   height: 500px;
@@ -555,3 +580,16 @@ header {
     background-display: flex;
     background-size: cover;
     background-position: center; }
+
+@media (max-width: 800px) {
+  .contact {
+    float: none; }
+    .contact .contact-blurb {
+      display: block;
+      height: 500px;
+      width: 100%;
+      float: left; }
+    .contact .contact-image {
+      display: block;
+      width: 100%;
+      float: left; } }

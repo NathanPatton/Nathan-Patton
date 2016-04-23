@@ -25,7 +25,7 @@
     .about-image
         width: 50%
         height: 500px
-        float: right
+        float: left
         background:
             image: url(../img/about.jpg)
             opacity: 0.7
@@ -34,6 +34,21 @@
             size: cover
             position: center
             
+            
+@media (max-width: 800px)
+    .about
+        float: none
+        
+        .about-blurb
+            display: block
+            height: 500px
+            width: 100%
+            float: left
+        
+        .about-image
+            display: block
+            width: 100%
+            float: left
             
 
             
