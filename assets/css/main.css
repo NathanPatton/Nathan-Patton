@@ -510,3 +510,43 @@ header {
     height: 100%;
     display: block;
     margin: auto; }
+
+.contact {
+  float: left;
+  height: 500px;
+  width: 100%; }
+  .contact .contact-blurb {
+    width: 50%;
+    height: 500px;
+    float: left; }
+    .contact .contact-blurb .contact-wrap {
+      position: relative;
+      top: 40%;
+      transform: translateY(-50%); }
+      .contact .contact-blurb .contact-wrap .img-container {
+        float: left;
+        display: block;
+        width: 100%;
+        margin-left: 4em; }
+        .contact .contact-blurb .contact-wrap .img-container img {
+          float: left;
+          position: relative;
+          transform: translateY(-50%);
+          margin-top: 3em;
+          padding-right: 1em;
+          color: pink; }
+      .contact .contact-blurb .contact-wrap .contact-head {
+        padding-left: 1em; }
+      .contact .contact-blurb .contact-wrap .contact-body {
+        width: 75%;
+        padding-left: 4em; }
+  .contact .contact-image {
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-image: url(../img/contact.jpg);
+    background-opacity: 0.7;
+    background-color: blue;
+    background-display: flex;
+    background-size: cover;
+    background-position: center; }
