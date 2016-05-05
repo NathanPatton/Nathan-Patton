@@ -210,6 +210,8 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; }
+  body .wrapper {
+    overflow-x: hidden; }
 
 @media (max-width: 800px) {
   body {
